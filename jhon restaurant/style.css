@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.primary-box{
+  background-image: url('img/PatternJohnRestaurant.png') ;
+  opacity: 1;
+  height: 100vh !important;
+}
+.box-info{
+    line-height: 2.3;
+}
+.img-logo{
+    width: 60%;
+    padding-top: 20%;
+    margin-left: 21%;
+}
+.text-box-prymary{
+    color: white;
+}
+.text-box-prymary:hover{
+    color: #bf9410;
+}
+.box-primary-icon{
+    justify-content: center !important;
+    
+}
+.img-icone-insta{
+    width: 50px;
+    height: 50px;
+}
+.img-icone{
+    width: 50px;
+    height: 50px;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  height: 75%;
+  margin-left: 24%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.numbertext{
+    display: none;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade-in {
+  -webkit-animation-name: fade-in;
+  -webkit-animation-duration: 2s;
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade-in {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade-in {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.box-secondary{
+  display: flex;
+  justify-content: center;
+}
+.box-section-size{
+  margin-left: 24%;
+}
+.hr-style{
+  width: 75px;
+  border: 1px solid #bf9410;
+}
+.text-section-secondary{
+
+}
+.number-section {
+  color: #bf9410;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 3px;
+}
+.img-section-third{
+  width: 93%;
+  height: 70%;
+  margin-left: 67%;
+}
+.box-section-fourth{
+  background-color: #222222 !important;
+  margin-left: 20%;
+}
+.banner-img-fourth-primary{
+  width: 255px;
+  height: 100px;
+  padding-top: 43px;
+}
+.banner-img-fourth-second{
+  width: 255px;
+  height: 100px;
+  padding-top: 43px;
+}
+.banner-img-fourth-third{
+  width: 255px;
+  padding-top: 43px;
+}
